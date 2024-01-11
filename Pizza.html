@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pizza Parlour</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header, main, footer {
+      padding: 20px;
+    }
+
+    /* Header Designs */
+    header {
+      background-color: #f8f8f8;
+      text-align: center;
+    }
+
+    /* Main Content Design */
+    .pizza-options {
+      text-align: center;
+    }
+
+    .pizza-gallery {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .pizza {
+      text-align: center;
+    }
+
+    .pizza img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Footer Styles */
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Pizza Parlour</h1>
+    <p>Delicious pizzas made with love</p>
+  </header>
+  
+  <main>
+    <section class="pizza-options">
+      <h2>Our Specialties</h2>
+      <div class="pizza-gallery">
+        <div class="pizza">
+          <img src="https://www.nordicware.com/wp-content/uploads/2021/05/46400_traditional_pizza_pan_02_e.jpg" alt="Pizza 1">
+          <h3>Supreme Pizza</h3>
+        </div>
+        <div class="pizza">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7Q_Y-vgoXbXwvgm2gQO22Do5Zhv25c-PZxg&usqp=CAU" alt="Pizza 2">
+          <h3>Veggie Delight</h3>
+        </div>
+        <!-- Can add more Pizza OpTions -->
+      </div>
+    </section>
+    
+    <section class="about-us">
+      <h2>About Us</h2>
+      <p>We are committed to serving you the best pizzas using high-quality ingredients.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contact us at <a href="mailto:info@testpizza.org">info@testpizza.org</a></p>
+  </footer>
+</body>
+</html>
